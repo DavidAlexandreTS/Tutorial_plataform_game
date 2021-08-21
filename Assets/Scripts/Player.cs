@@ -87,13 +87,23 @@ public class Player : MonoBehaviour
         }
     }
 
-    // Metodo para checar se o personagem tocou no chao
+    // Metodo para checar se o personagem alguma coisa
     void OnCollisionEnter2D(Collision2D collision)
     {
+        // se o personagem tocou no chao
         if(collision.gameObject.layer == 8)
         {
             isJumping = false;
             anime.SetBool("walk", false);
+        }
+
+        // se o personagem tocou no espinho
+        if(collision.gameObject.tag == "Spike")
+        {
+            // print da unity
+            //Debug.Log("Tocou o espinho!");
+            GameController.instance.ShowGameOver();
+            Destroy(gameObject);
         }
     }
 
