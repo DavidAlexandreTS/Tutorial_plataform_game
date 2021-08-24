@@ -15,11 +15,11 @@ C:/Users/^^/Desktop/Gaymes/Tutorial_plataform_game
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-65219
+59795
 Successfully changed project path to: C:/Users/^^/Desktop/Gaymes/Tutorial_plataform_game
 C:/Users/^^/Desktop/Gaymes/Tutorial_plataform_game
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 46.52 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 44.24 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.4f1 (0abb6314276a)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Resources/UnitySubsystems
@@ -35,197 +35,18 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56508
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56924
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002499 seconds.
+Registered in 0.246517 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 48.28 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 42.97 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.404 seconds
+- Completed reload, in  3.861 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001062 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 49.66 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.881 seconds
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.25 seconds
-Refreshing native plugins compatible for Editor in 0.80 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1812 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 85.1 MB.
-System memory in use after: 85.0 MB.
-
-Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2255.
-Total: 3.386800 ms (FindLiveObjects: 0.235000 ms CreateObjectMapping: 0.085500 ms MarkObjects: 2.859100 ms  DeleteObjects: 0.205300 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Pixel Adventure 1/Assets/Items/Checkpoints/Checkpoint/Checkpoint (Flag Idle)(64x64).png
-  artifactKey: Guid(27a107940057e8743a507269b18a691a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Adventure 1/Assets/Items/Checkpoints/Checkpoint/Checkpoint (Flag Idle)(64x64).png using Guid(27a107940057e8743a507269b18a691a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9282c1445c9f40813133bffa81ba34e4') in 0.478899 seconds
-  Import took 0.520965 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000406 seconds.
-  path: Assets/Pixel Adventure 1/Assets/Items/Checkpoints/Checkpoint/Checkpoint (Flag Out) (64x64).png
-  artifactKey: Guid(32726eef68207514bbede9c6509379b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Adventure 1/Assets/Items/Checkpoints/Checkpoint/Checkpoint (Flag Out) (64x64).png using Guid(32726eef68207514bbede9c6509379b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12ff078c650eaf586d424c94e798970f') in 0.128126 seconds
-  Import took 0.148824 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000201 seconds.
-  path: Assets/Pixel Adventure 1/Assets/Items/Checkpoints/Start/Start (Moving) (64x64).png
-  artifactKey: Guid(953d2013647e1fb479bf559fccb58994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Adventure 1/Assets/Items/Checkpoints/Start/Start (Moving) (64x64).png using Guid(953d2013647e1fb479bf559fccb58994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b019549a35150727d10f4f8f70c13d3e') in 0.118228 seconds
-  Import took 0.134342 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000438 seconds.
-  path: Assets/Pixel Adventure 1/Assets/Items/Checkpoints/Start/Start (Idle).png
-  artifactKey: Guid(3016a57ecc98e9e46b7a110ddd486ee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Adventure 1/Assets/Items/Checkpoints/Start/Start (Idle).png using Guid(3016a57ecc98e9e46b7a110ddd486ee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23331d53238dc72ab79dbd9674b527bb') in 0.041884 seconds
-  Import took 0.046546 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000291 seconds.
-  path: Assets/Pixel Adventure 1/Assets/Items/Checkpoints/Checkpoint/Checkpoint (No Flag).png
-  artifactKey: Guid(68f54e5fc0fa326458d3e18bdccce704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Adventure 1/Assets/Items/Checkpoints/Checkpoint/Checkpoint (No Flag).png using Guid(68f54e5fc0fa326458d3e18bdccce704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e25e415f73f63a228606e06a34a44168') in 0.094134 seconds
-  Import took 0.111246 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000315 seconds.
-  path: Assets/Pixel Adventure 1/Assets/Items/Checkpoints/Start/Start (Idle).png
-  artifactKey: Guid(3016a57ecc98e9e46b7a110ddd486ee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Pixel Adventure 1/Assets/Items/Checkpoints/Start/Start (Idle).png using Guid(3016a57ecc98e9e46b7a110ddd486ee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23331d53238dc72ab79dbd9674b527bb') in 0.016147 seconds
-  Import took 0.027148 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.754016 seconds.
-  path: Assets/Scenes/lvl_1.unity
-  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/lvl_1.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55bf41b7560fa34eae6c7fd788cf20da') in 0.039202 seconds
-  Import took 0.062074 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.045068 seconds.
-  path: Assets/Scenes/lvl_1.unity
-  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/lvl_1.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55bf41b7560fa34eae6c7fd788cf20da') in 0.003533 seconds
-  Import took 0.007212 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 425.391251 seconds.
-  path: Assets/Scripts/NextLvLPoint.cs
-  artifactKey: Guid(64605385d0d412a4293f4c4dcd27a20b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/NextLvLPoint.cs using Guid(64605385d0d412a4293f4c4dcd27a20b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b94a593e2d37dd282355331de7740326') in 0.213704 seconds
-  Import took 0.223632 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001133 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.41 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.687 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.68 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1808 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.2 MB.
-System memory in use after: 88.1 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2269.
-Total: 5.188200 ms (FindLiveObjects: 1.235200 ms CreateObjectMapping: 0.824100 ms MarkObjects: 3.013000 ms  DeleteObjects: 0.113900 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 476.586833 seconds.
-  path: Assets/Scripts/NextLvLPoint.cs
-  artifactKey: Guid(64605385d0d412a4293f4c4dcd27a20b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/NextLvLPoint.cs using Guid(64605385d0d412a4293f4c4dcd27a20b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '215bdc0c3778d0ba41614c6311934465') in 0.048640 seconds
-  Import took 0.072957 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 78.957740 seconds.
-  path: Assets/Scripts/NextLvLPoint.cs
-  artifactKey: Guid(64605385d0d412a4293f4c4dcd27a20b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/NextLvLPoint.cs using Guid(64605385d0d412a4293f4c4dcd27a20b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9a49e2cd4fde1b44d13b106b37a3b11') in 0.011453 seconds
-  Import took 0.286094 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001650 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.124 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1808 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.2 MB.
-System memory in use after: 88.2 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2273.
-Total: 4.735400 ms (FindLiveObjects: 0.246900 ms CreateObjectMapping: 0.104900 ms MarkObjects: 3.710900 ms  DeleteObjects: 0.670600 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 60.530935 seconds.
-  path: Assets/Scripts/NextLvLPoint.cs
-  artifactKey: Guid(64605385d0d412a4293f4c4dcd27a20b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/NextLvLPoint.cs using Guid(64605385d0d412a4293f4c4dcd27a20b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '681fbcf77bdf0b6a6f5824a636cf116b') in 0.010289 seconds
-  Import took 0.039027 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001028 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.435 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.62 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1808 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.2 MB.
-System memory in use after: 88.2 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2277.
-Total: 3.458900 ms (FindLiveObjects: 0.498700 ms CreateObjectMapping: 0.168900 ms MarkObjects: 2.672900 ms  DeleteObjects: 0.117300 ms)
-
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+Registered in 0.075059 seconds.

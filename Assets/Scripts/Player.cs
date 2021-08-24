@@ -105,6 +105,15 @@ public class Player : MonoBehaviour
             GameController.instance.ShowGameOver();
             Destroy(gameObject);
         }
+
+        // se o personagem tocou na serra
+        if(collision.gameObject.tag == "Saw")
+        {
+            // print da unity
+            //Debug.Log("Tocou o espinho!");
+            GameController.instance.ShowGameOver();
+            Destroy(gameObject);
+        }
     }
 
     // Metodo para checar se o personagem saiu do chao \o/
