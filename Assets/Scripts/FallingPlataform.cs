@@ -30,7 +30,7 @@ public class FallingPlataform : MonoBehaviour
     //destroi se tocar em algo com a layer 9
     void OnTriggerEnter2D(Collider2D collider)
     {
-         if(collider.gameObject.layer == 9)
+        if(collider.gameObject.layer == 9)
         {
             Destroy(gameObject);
         }

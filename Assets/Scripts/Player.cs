@@ -87,7 +87,7 @@ public class Player : MonoBehaviour
         }
     }
 
-    // Metodo para checar se o personagem alguma coisa
+    // Metodo para checar se o personagem bateu em alguma coisa
     void OnCollisionEnter2D(Collision2D collision)
     {
         // se o personagem tocou no chao
@@ -101,7 +101,7 @@ public class Player : MonoBehaviour
         if(collision.gameObject.tag == "Spike")
         {
             // print da unity
-            //Debug.Log("Tocou o espinho!");
+            // Debug.Log("Tocou o espinho!");
             GameController.instance.ShowGameOver();
             Destroy(gameObject);
         }
@@ -110,7 +110,7 @@ public class Player : MonoBehaviour
         if(collision.gameObject.tag == "Saw")
         {
             // print da unity
-            //Debug.Log("Tocou o espinho!");
+            //Debug.Log("Tocou na serra!");
             GameController.instance.ShowGameOver();
             Destroy(gameObject);
         }
