@@ -48,6 +48,9 @@ public class Inimiga : MonoBehaviour
         }
     }
 
+    //variavel pra controlar a vida e a morte do personagem
+    bool playerDestroyed = false;
+
     //obs: eu tava tendo um bug pq o método nunca era chamado, isso rolava pq ele tava dentro do Update()
     void OnCollisionEnter2D(Collision2D col)
         {
@@ -55,9 +58,14 @@ public class Inimiga : MonoBehaviour
             {
                 // Checa se o personagem ta batendo na cabeça do inimigo(pelo headPoint)
                 float height = col.contacts[0].point.y - headPoint.position.y;
-
+                
+                // A gnt podia usar esse código abaixo pra debugar
+                // qnd o height for negativo a gente destroi o inimigo
+                // caso contrario ele entra no if
+                //Debug.log(height);
+                
                 // ou seja, bateu na cabeça
-                if(height > 0)
+                if(height > 0 && !playerDestroyed)
                 {
                     //da um pulinho pra cima
                     col.gameObject.GetComponent<Rigidbody2D>().AddForce(Vector2.up * 8, ForceMode2D.Impulse);
@@ -76,6 +84,18 @@ public class Inimiga : MonoBehaviour
                     rig.bodyType = RigidbodyType2D.Kinematic;
                     // faz o inimigo sumir depois de 1 segundo
                     Destroy(gameObject, 0.33f);
+                }
+                // Se eu bater em qualquer outra parte do corpo do inimigo que n seja a acbeça
+                else
+                {
+                    //qnd batia no inimigo, ele chamava o gameover, mas chamava a destruição do inimigo
+                    //e assim os dois sumiam, porém o inimigo tem que ficar e só player sumir
+                    // pq detectava 2x o mesmo choque dos personagens por causa dos colisores
+                    // o playerDestroyed  = true pq o personagem morreu ;-;
+                    playerDestroyed = true;
+                    // Mostra o Game over na tela e destroi o objeto
+                    GameController.instance.ShowGameOver();
+                    Destroy(col.gameObject);
                 }
             }
         }
