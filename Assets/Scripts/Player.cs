@@ -14,6 +14,8 @@ public class Player : MonoBehaviour
 
     private Rigidbody2D rig;
 
+    bool isBlowing;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -67,7 +69,7 @@ public class Player : MonoBehaviour
     // Character jump rsrs
     void Jump()
     {
-        if(Input.GetButtonDown("Jump"))
+        if(Input.GetButtonDown("Jump") && !isBlowing)
         {
             if(!isJumping)
             {
@@ -122,6 +124,24 @@ public class Player : MonoBehaviour
         if(collision.gameObject.layer == 8)
         {
             isJumping = true;
+        }
+    }
+
+    // chamado em constante colisão, enquanto o OnTriggerEnter é chamado 1x
+    void OnTriggerStay2D(Collider2D collider)
+    {
+        if(collider.gameObject.layer == 11)
+        {
+            isBlowing = true;
+        }
+    }
+
+    //Chamado qnd o objeto sai da colisão com outro objeto
+    void OnTriggerExit2D(Collider2D collider)
+    {
+        if(collider.gameObject.layer == 11)
+        {
+            isBlowing = false;
         }
     }
 }
