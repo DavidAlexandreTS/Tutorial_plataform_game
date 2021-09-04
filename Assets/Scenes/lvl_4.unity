@@ -2539,6 +2539,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fan (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 7689383879394359141, guid: 6494e4d1472e1444f8f9c9b913869904, type: 3}
+      propertyPath: m_Size.y
+      value: 0.89384854
+      objectReference: {fileID: 0}
+    - target: {fileID: 7689383879394359141, guid: 6494e4d1472e1444f8f9c9b913869904, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.39586443
+      objectReference: {fileID: 0}
     - target: {fileID: 7689383879394359143, guid: 6494e4d1472e1444f8f9c9b913869904, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -2984,6 +2992,18 @@ PrefabInstance:
     - target: {fileID: 7689383879394359136, guid: 6494e4d1472e1444f8f9c9b913869904, type: 3}
       propertyPath: m_Name
       value: Fan (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7689383879394359140, guid: 6494e4d1472e1444f8f9c9b913869904, type: 3}
+      propertyPath: m_ForceMagnitude
+      value: 45
+      objectReference: {fileID: 0}
+    - target: {fileID: 7689383879394359141, guid: 6494e4d1472e1444f8f9c9b913869904, type: 3}
+      propertyPath: m_Size.y
+      value: 1.0776144
+      objectReference: {fileID: 0}
+    - target: {fileID: 7689383879394359141, guid: 6494e4d1472e1444f8f9c9b913869904, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.48774737
       objectReference: {fileID: 0}
     - target: {fileID: 7689383879394359143, guid: 6494e4d1472e1444f8f9c9b913869904, type: 3}
       propertyPath: m_RootOrder
@@ -3985,6 +4005,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fan (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 7689383879394359141, guid: 6494e4d1472e1444f8f9c9b913869904, type: 3}
+      propertyPath: m_Size.y
+      value: 0.82145584
+      objectReference: {fileID: 0}
+    - target: {fileID: 7689383879394359141, guid: 6494e4d1472e1444f8f9c9b913869904, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.35966808
+      objectReference: {fileID: 0}
     - target: {fileID: 7689383879394359143, guid: 6494e4d1472e1444f8f9c9b913869904, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -4956,6 +4984,18 @@ PrefabInstance:
     - target: {fileID: 7689383879394359136, guid: 6494e4d1472e1444f8f9c9b913869904, type: 3}
       propertyPath: m_Name
       value: Fan (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7689383879394359140, guid: 6494e4d1472e1444f8f9c9b913869904, type: 3}
+      propertyPath: m_ForceMagnitude
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 7689383879394359141, guid: 6494e4d1472e1444f8f9c9b913869904, type: 3}
+      propertyPath: m_Size.y
+      value: 1.0609086
+      objectReference: {fileID: 0}
+    - target: {fileID: 7689383879394359141, guid: 6494e4d1472e1444f8f9c9b913869904, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.47939444
       objectReference: {fileID: 0}
     - target: {fileID: 7689383879394359143, guid: 6494e4d1472e1444f8f9c9b913869904, type: 3}
       propertyPath: m_RootOrder
@@ -6583,6 +6623,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fan
       objectReference: {fileID: 0}
+    - target: {fileID: 7689383879394359140, guid: 6494e4d1472e1444f8f9c9b913869904, type: 3}
+      propertyPath: m_ForceMagnitude
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 7689383879394359141, guid: 6494e4d1472e1444f8f9c9b913869904, type: 3}
+      propertyPath: m_Size.y
+      value: 0.78804404
+      objectReference: {fileID: 0}
+    - target: {fileID: 7689383879394359141, guid: 6494e4d1472e1444f8f9c9b913869904, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.34296206
+      objectReference: {fileID: 0}
     - target: {fileID: 7689383879394359143, guid: 6494e4d1472e1444f8f9c9b913869904, type: 3}
       propertyPath: m_RootOrder
       value: 14
@@ -6683,6 +6735,10 @@ PrefabInstance:
     - target: {fileID: 8387762807906170517, guid: c1df3e53bcbd3c24faf6f02029957d40, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8387762807906170519, guid: c1df3e53bcbd3c24faf6f02029957d40, type: 3}
+      propertyPath: m_GravityScale
+      value: 3.02
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c1df3e53bcbd3c24faf6f02029957d40, type: 3}
