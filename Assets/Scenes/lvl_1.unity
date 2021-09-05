@@ -519,11 +519,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5489769276109582855, guid: 2f67595b9d27dac448502a7f389f4892, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.20817864
+      value: -0.68
       objectReference: {fileID: 0}
     - target: {fileID: 5489769276109582855, guid: 2f67595b9d27dac448502a7f389f4892, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.834645
+      value: 1.246
       objectReference: {fileID: 0}
     - target: {fileID: 5489769276109582855, guid: 2f67595b9d27dac448502a7f389f4892, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2646,7 +2646,7 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
-  - first: {x: -4, y: 0, z: 0}
+  - first: {x: -5, y: -1, z: 0}
     second:
       serializedVersion: 2
       m_TileIndex: 7
@@ -2656,7 +2656,7 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
-  - first: {x: -3, y: 0, z: 0}
+  - first: {x: -4, y: -1, z: 0}
     second:
       serializedVersion: 2
       m_TileIndex: 8
@@ -2666,7 +2666,7 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
-  - first: {x: -2, y: 0, z: 0}
+  - first: {x: -3, y: -1, z: 0}
     second:
       serializedVersion: 2
       m_TileIndex: 9
@@ -2862,11 +2862,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5489769276109582855, guid: 2f67595b9d27dac448502a7f389f4892, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.1151787
+      value: -1.5870001
       objectReference: {fileID: 0}
     - target: {fileID: 5489769276109582855, guid: 2f67595b9d27dac448502a7f389f4892, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.834645
+      value: 1.246
       objectReference: {fileID: 0}
     - target: {fileID: 5489769276109582855, guid: 2f67595b9d27dac448502a7f389f4892, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2919,11 +2919,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5489769276109582855, guid: 2f67595b9d27dac448502a7f389f4892, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.6641786
+      value: -1.136
       objectReference: {fileID: 0}
     - target: {fileID: 5489769276109582855, guid: 2f67595b9d27dac448502a7f389f4892, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.834645
+      value: 1.246
       objectReference: {fileID: 0}
     - target: {fileID: 5489769276109582855, guid: 2f67595b9d27dac448502a7f389f4892, type: 3}
       propertyPath: m_LocalPosition.z

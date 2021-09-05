@@ -38,7 +38,7 @@ public class Player : MonoBehaviour
         transform.position += movement * Time.deltaTime * Speed;
 
         // Personagem indo para a direita
-        if(Input.GetAxis("Horizontal") > 0)
+        if(Input.GetAxis("Horizontal") > 0f)
         {
             // Character is walking
             anime.SetBool("walk", true);
@@ -48,7 +48,7 @@ public class Player : MonoBehaviour
         }
 
         // Personagem indo para a esquerda
-        if(Input.GetAxis("Horizontal") < 0)
+        if(Input.GetAxis("Horizontal") < 0f)
         {
             // Character is walking
             anime.SetBool("walk", true);
@@ -58,7 +58,7 @@ public class Player : MonoBehaviour
         }
 
         // Sempre que o personagem tiver parado Input.GetAxis("Horizontal") será 0
-        if(Input.GetAxis("Horizontal") == 0)
+        if(Input.GetAxis("Horizontal") == 0f)
         {
             // Character is not walking
             anime.SetBool("walk", false);
@@ -75,7 +75,7 @@ public class Player : MonoBehaviour
             {
                 rig.AddForce(new Vector2(0f, JumpForce), ForceMode2D.Impulse);
                 doubleJump = true;
-                anime.SetBool("walk", true);
+                anime.SetBool("jump", true);
             }
             else
             {
@@ -96,7 +96,7 @@ public class Player : MonoBehaviour
         if(collision.gameObject.layer == 8)
         {
             isJumping = false;
-            anime.SetBool("walk", false);
+            anime.SetBool("jump", false);
         }
 
         // se o personagem tocou no espinho

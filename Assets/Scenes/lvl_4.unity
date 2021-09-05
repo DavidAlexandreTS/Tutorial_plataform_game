@@ -1645,7 +1645,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: lvl_2
+          m_StringArgument: lvl_4
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &743683291
@@ -4927,6 +4927,10 @@ PrefabInstance:
     - target: {fileID: 8942948757637314084, guid: 5829c6a32a525bb46a6053b93eb62b47, type: 3}
       propertyPath: m_Name
       value: Next lvl
+      objectReference: {fileID: 0}
+    - target: {fileID: 8942948757637314088, guid: 5829c6a32a525bb46a6053b93eb62b47, type: 3}
+      propertyPath: lvlName
+      value: lvl_4
       objectReference: {fileID: 0}
     - target: {fileID: 8942948757637314089, guid: 5829c6a32a525bb46a6053b93eb62b47, type: 3}
       propertyPath: m_RootOrder
