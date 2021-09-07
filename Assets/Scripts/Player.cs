@@ -34,11 +34,19 @@ public class Player : MonoBehaviour
     void Move()
     {
         // Create moves on x
-        Vector3 movement = new Vector3(Input.GetAxis("Horizontal"), 0f, 0f);
-        transform.position += movement * Time.deltaTime * Speed;
+        //Vector3 movement = new Vector3(Input.GetAxis("Horizontal"), 0f, 0f);
+        // Move o personagem em um posicao
+        //transform.position += movement * Time.deltaTime * Speed;
+
+        // AMarmazena o eixo que to pressionando no teclado
+        float movement = Input.GetAxis("Horizontal");
+
+        // Passa o eixo vezes a velocidade, enquanto no y passa a mesma posicao
+        // de y pra n movimentar ele no eixo y
+        rig.velocity = new Vector2(movement * Speed, rig.velocity.y);
 
         // Personagem indo para a direita
-        if(Input.GetAxis("Horizontal") > 0f)
+        if(movement > 0f)
         {
             // Character is walking
             anime.SetBool("walk", true);
@@ -48,7 +56,7 @@ public class Player : MonoBehaviour
         }
 
         // Personagem indo para a esquerda
-        if(Input.GetAxis("Horizontal") < 0f)
+        if(movement < 0f)
         {
             // Character is walking
             anime.SetBool("walk", true);
@@ -58,7 +66,7 @@ public class Player : MonoBehaviour
         }
 
         // Sempre que o personagem tiver parado Input.GetAxis("Horizontal") será 0
-        if(Input.GetAxis("Horizontal") == 0f)
+        if(movement == 0f)
         {
             // Character is not walking
             anime.SetBool("walk", false);
